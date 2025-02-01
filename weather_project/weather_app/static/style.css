@@ -1,0 +1,143 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4; /* White background */
+    color: #333; /* Dark text for better contrast */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.8); /* Lighter background for form */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd; /* Light border for inputs */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+/* Comparison Container */
+.comparison_container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* City Weather Container */
+.city_container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
+    max-width: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* City Weather */
+h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Weather Icons */
+img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Forecast Container */
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Individual Forecast */
+.forecast {
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque white background */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 120px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+.local-time {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.local-time h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.local-time p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #555;
+}
+.timezone, .local-time {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.timezone h3, .local-time h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.timezone p, .local-time p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #555;
+}
